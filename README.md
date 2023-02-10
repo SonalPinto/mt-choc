@@ -46,7 +46,7 @@ The [Waveshare-RP2040-LCD-1.28](https://circuitpython.org/board/waveshare_rp2040
 - Kailh choc stabilizer spec - [link1](https://github.com/keebio/keebio-references/tree/master/Kailh%20Choc%20Stabs), [link2](assets/choc-stab-spec.jpg), [3D model](https://grabcad.com/library/kailh-choc-v1-pg1350-stabilizer-1)
 - Kailh choc PG1350 spec - [link](https://cdn-shop.adafruit.com/product-files/5113/CHOC+keyswitch_Kailh-CPG135001D01_C400229.pdf)
 - Kailh choc hotswap socket - [link](https://cdn-shop.adafruit.com/product-files/5118/5118-Choc-Socket.pdf)
-- [ChosFox CFX](https://chosfox.com/products/chocfox-legends-keycap-set?variant=42753190461634) keycaps appear to be designed for a 19x19, at least according my calculations. So, the non-1U keys will not align along the right or left column.
+- [ChosFox CFX](https://chosfox.com/products/chocfox-legends-keycap-set?variant=42753190461634) keycaps appear to be designed for a 1U=19x19 layout, at least according my calculations. So, the non-1U keys will not align along the right or left column.
 
 ## Credits
 - Simon ([FK Caps](https://fkcaps.com/)) and folks on FK Caps [Discord](https://discord.gg/b5C9H99RYZ)
