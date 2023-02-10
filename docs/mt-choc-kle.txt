@@ -1,0 +1,5 @@
+[{c:"#918c88",a:7,f:8},"<i class='mss mss-Unicode-Escape-3'></i>",{c:"#c6c1b9",f:6},"1","2","3","4","5","6","7","8","9","0","-","+",{c:"#b2ada6",w:1.5},"<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>",{x:0.25,c:"#cccccc",f:9,w:2,h:2.25},"&Theta;"],
+[{c:"#b2ada6",w:1.5},"<i class='kb kb-Line-End'></i>",{c:"#c6c1b9",f:6},"Q","W","E","R","T","Y","U","I","O","P","[","]","\\"],
+[{c:"#b2ada6",w:1.75},"",{c:"#c6c1b9"},"A","S","D",{n:true},"F","G","H",{n:true},"J","K","L",";","'",{c:"#918c88",a:5,f:9,w:1.75},"\n<i class='kb kb-Return-2'></i>"],
+[{c:"#b2ada6",a:7,f:6,w:2.25},"<i class='fa fa-chevron-up'></i>",{c:"#c6c1b9"},"Z","X","C","V","B","N","M",",",".","/",{c:"#b2ada6",w:2.25},"<i class='fa fa-chevron-up'></i>",{x:0.25,c:"#c6c1b9"},"<i class='fa fa-arrow-up'></i>"],
+[{c:"#b2ada6",f:3,w:1.25},"",{w:1.25},"",{w:1.25},"",{c:"#c6c1b9",w:6.25},"",{c:"#b2ada6",w:1.25},"",{w:1.25},"","",{x:0.25,c:"#c6c1b9",f:6},"<i class='fa fa-arrow-left'></i>","<i class='fa fa-arrow-down'></i>","<i class='fa fa-arrow-right'></i>"]
