@@ -18,27 +18,24 @@ Mt. Choc is a low-profile 65% ~dark chocolate~ keyboard.
 🦗
 
 ## Layout
-Mt. Choc's 65% layout is designed around Kailh Choc V1 (PG1350) switches and choc-spaced keycaps (18mm wide x 17mm tall, like [MBK Legend‡ Extended](https://fkcaps.com/keycaps/mbk/legend-extended)). The rows have the standard stagger and 6.25U spacebar. The right column is a tad narrower than usual with the intention of reducing the number of stabilizers needed. Hence, the backspace is 1.5U, the forward slash is 1U, enter is 1.75U and the right shift is 2.25U (symmetric with the left shift). The arrow cluster is offset 0.25U to right-align with the microcontroller and display. The layout does look simillar to 68-key boards like  the [Ikki68 Aurora](https://shop.wuquestudio.com/pages/ikki68-aurora) or [Varmillo Miya or VA68](https://en.varmilo.com/keyboardproscenium/product_indexsubject?layout=65&model=Theme%20keyboard), with the 2x2 keys in the top-right swapped for the display. The design is very human.
+A while back I had bought a box of [Sunset tactiles](https://lowprokb.ca/collections/keyboards/products/sunset-tactile-choc-switches) on a whim. I didn't really have a board in mind back then, but I knew I wanted to design a low profile board and have some kinda display on it. I had some idea brewing around since reading this ["Cyberpunk OLED glitch"](https://kbd.news/Cyberpunk-OLED-glitch-1098.html) article on KBD.news. A few weeks later, I stumbled upon Simon's interview on [KBD.news](https://kbd.news/Keycaps-design-and-free-kittens-1801.html) and saw the interest check for [MBK Legend‡ Extended](https://fkcaps.com/keycaps/mbk/legend-extended)). Everything just clicked together, and I started drafting a board.
 
-The 2.25U shift on the left and right will need choc 2U stabilizers (standard 24mm wire). The 6.25U MBK spacebar needs a 100mm wire, which is the same width as a MX wire. However, the default long wire that comes along with a Kailh Choc stabilizer kit is 76mm long.
+Mt. Choc's 65% layout is designed around Kailh Choc V1 (PG1350) switches and choc-spaced keycaps (18mm wide x 17mm tall, like MBK Legend‡ Extended. The rows have the standard stagger and 6.25U spacebar. The right column is a tad narrower than usual with the intention of reducing the number of stabilizers needed. Hence, the backspace is 1.5U, the forward slash is 1U, enter is 1.75U and the right shift is 2.25U (symmetric with the left shift). The arrow cluster is offset 0.25U to right-align with the microcontroller and display. The layout does look simillar to 68-key boards like  the [Ikki68 Aurora](https://shop.wuquestudio.com/pages/ikki68-aurora) or [Varmillo Miya or VA68](https://en.varmilo.com/keyboardproscenium/product_indexsubject?layout=65&model=Theme%20keyboard), with the 2x2 keys in the top-right swapped for the display. The design is very human.
 
 <p align="center" width="100%">
     <img width="75%" src="assets/mt_choc_kle.png">
 </p>
 
-## Hardware
-The board is powered by a [Waveshare RP2040 microcontroller](https://www.waveshare.com/rp2040-lcd-1.28.htm) board with integrated 1.28" display. 
+The 2.25U shift on the left and right will need choc 2U stabilizers (standard 24mm wire). The 6.25U MBK spacebar needs a 100mm wire, which is the same width as a MX wire. However, the default long wire that comes along with a Kailh Choc stabilizer kit is 76mm long. Moreover, the MX 100mm wire probably cannot be used with the choc stabilizers because they are usually taller (12.5mm), whereas the Kailh stabilizers are 10mm tall.
 
-## Firmware
-The [Waveshare-RP2040-LCD-1.28](https://circuitpython.org/board/waveshare_rp2040_lcd_1_28/) is now supported by CircuitPython, as of the 8.0.0 release. Mt. Choc uses [KMK](http://kmkfw.io/) for firmware, same as [Purple Owl](https://github.com/SonalPinto/purple-owl).
+## Hardware
+[DOC](docs/hardware.md)
 
 ## Build
+[DOC](docs/build.md)
 
-### Minimalist Stack
-🦗
-
-### 3D Printed Case
-🦗
+## Firmware
+[DOC](docs/firmware.md)
 
 ## Misc
 - Keyboard Layout Editor - [link](http://www.keyboard-layout-editor.com/#/gists/bee63da1aabd22d248c2b8acba987245)
@@ -50,3 +47,5 @@ The [Waveshare-RP2040-LCD-1.28](https://circuitpython.org/board/waveshare_rp2040
 
 ## Credits
 - Simon ([FK Caps](https://fkcaps.com/)) and folks on FK Caps [Discord](https://discord.gg/b5C9H99RYZ)
+- skarrman's [Horizon keyboard](https://github.com/skarrmann/horizon/)
+- nicoles' [mbk-footprints](https://github.com/nicoles/mbk_footprints)
