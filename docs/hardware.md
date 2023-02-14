@@ -19,3 +19,14 @@ The uC has footprints for all the three layers. The main PCB is the one with the
 <p align="center" width="100%">
     <img width="75%" src="../assets/rp2040-display-footprints.png">
 </p>
+
+## Soldering
+
+- Get a Pinecil, and invest in some good solder (Kester 0.02" 63/37) and wick (Chemtronics or MG Chemicals). Get some tip tinner (Thermaltronics), and flux (ChipQuik) too.
+- Be careful with diode orientation. There is a silkscreen marker to indicate placement.
+- Same goes for the hotswap sockets. Now, usually this isn't a problem on regular builds, which don't use a bottom plate to **enclose** the main PCB. Because, the Kailh hotswap sockets are mechanically and electrically symmetric. However, if the build uses the bottom plate to enclose the components, then the hotswap sockets must be soldered along the indicated silkscreen silhouette.
+- Soldering the 1.27mm pitch headers can be tricky. Might be the trickiest part of the job, and might be worth starting the build with this step.
+  - Stick the male headers into the microcontroller first, and then set it onto the PCB. Use some painter's tape (or kapton) to hold it in place.
+  - Solder **one** corner pin. Confirm everything is good on the other side, and only then proceed to solder another corner pin on the other header. If the setting is off, then reheat that pin while pressing down on the uC from the other side.
+  - Iteratively solder the other corners.
+  - With great patience, solder the rest the of the pins. If it bridges, then some combo of more solder, flux and wick will fix it.
