@@ -51,7 +51,7 @@ The split spacebar requires three 2U choch stabilizers, instead.
 Optimistically, every switch takes the [choc-1U-enclosure](../pcb/footprints/Choc-1u-enclosure.kicad_mod) footprint. Cutouts for the stabilizer do not appear to be necessary, since the stem does not appear to pass through the 1.6mm main PCB (though it does pass into it). At least not in the prototypes I tested. However there are some pessimistic bottom plate cutout footprints in the [library](../pcb/footprints/mt-choc-footprints.pretty) as well for 2U and 6.25U.
 
 <p align="center" width="100%">
-    <img width="50%" src="../assets/choc-1U-enclosure.png">
+    <img width="25%" src="../assets/choc-1u-enclosure.png">
 </p>
 
 ## Soldering
