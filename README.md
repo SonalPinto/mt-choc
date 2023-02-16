@@ -26,9 +26,7 @@ Mt. Choc's 65% layout is designed around Kailh Choc V1 (PG1350) switches and cho
     <img width="75%" src="assets/mt_choc_kle.png">
 </p>
 
-The 2.25U shift on the left and right will need choc 2U stabilizers (standard 24mm wire). The 6.25U MBK spacebar needs a 100mm wire, which is the same width as a MX wire. However, the default long wire that comes along with a Kailh Choc stabilizer kit is 76mm long. Moreover, the MX 100mm wire probably cannot be used with the choc stabilizers because they are usually taller (12.5mm), whereas the Kailh stabilizers are 10mm tall. Moreover, they are also thicker and don't seem to fit into the Kailh choc stabilizer stems (at least the ones I have tried).
-
-Opportunistically, the layout also offers an alternate spacebar layout with a split (2U-2.25U-2U) that reuses the stabilizer footprint cutouts of the 6.25U (read more in the [hardware doc](docs/hardware.md)).
+The 2.25U shift on the left and right will need choc 2U stabilizers (standard 24mm wire). The 6.25U MBK spacebar uses a stabilizer that is 100mm apart (MBK spec). Opportunistically, the layout also offers an alternate spacebar layout with a split (2U-2.25U-2U) that reuses the stabilizer footprint cutouts of the 6.25U (read more in the [hardware doc](docs/hardware.md)).
 
 ## Hardware
 [⌨️ DOC ⌨️](docs/hardware.md)
