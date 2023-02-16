@@ -1,11 +1,12 @@
 # Hardware
 
-The **minimalist** build for Mt. Choc is based off of the "PCB-Enclosed" design of the [Horizon Keyboard](https://github.com/skarrmann/horizon/), where the main PCB is enclosed by a another PCB with cutouts for the components. This builds for an excitingly low height stack!
+The **minimalist** build for Mt. Choc is inspired by the "PCB-Enclosed" design of the [Horizon Keyboard](https://github.com/skarrmann/horizon/), where the main PCB is enclosed by a another PCB with cutouts for the components. This builds for an excitingly low height stack!
 
 <p align="center" width="100%">
     <img width="50%" src="../assets/layer-stack.png">
 </p>
 
+## Microcontroller
 The board is powered by a [Waveshare RP2040 microcontroller](https://www.waveshare.com/rp2040-lcd-1.28.htm) with integrated 1.28" display (GC9A01A, 240x240px). The board has two 2x10 headers (1.27mm pitch) with a decent number of GPIO brought out. I picked this one because the display seemed fun, and the overall profile is pretty neat, and for the RP2040.
 
 Since I couldn't find a footprint for this board, I had to draw one. The footprint base for the uC was extracted from the model linked in its [waveshare docs](https://www.waveshare.com/wiki/RP2040-LCD-1.28). Then, project the model onto an offset plane and export the sketch as DXF. This can be imported in KiCad Footprint Editor as a graphic for further cleanup.
@@ -19,6 +20,28 @@ The uC has footprints for all the three layers. The main PCB is the one with the
 <p align="center" width="100%">
     <img width="75%" src="../assets/rp2040-display-footprints.png">
 </p>
+
+## Stabilizers
+The choc keycaps that need stabilizers (and wish to use Kailh Choc Stabilizers) apparently have an orientation, because the stabilizer stems ("+") and the switch do not sit in a straight line (Fig. 1). The footprint confirms this as well (Fig. 2). Moreover, the stabilizer itself cannot be moved to be collinear with the switch because there is not enough room to move the stabilizer wire down (Fig. 3).
+
+<p align="center" width="100%">
+    <img width="50%" src="../assets/choc-stabilizer-problem.png">
+</p>
+
+Now, usually for blanks this wouldn't be a problem. However, with legends, the keycaps need to sit in a right way. For MBK, we need **north-facing** stabilizers.
+
+<p align="center" width="100%">
+    <img width="75%" src="../assets/choc-stabilizer-orientation.png">
+</p>
+
+## Spacebar
+
+The 6.25U spacebar is great. But, there is clearly an opportunity to squeeze a split spacebar in there. Two 2U align with the outermost stabilizer cutouts, and a 2.25U in the center aligns with switch footprint for the 6.25U. Now, since the the 2U is aligned to the stabilizer cutout of the 6.25U, the 2U is shifted in by 0.25mm (shown by the third row below). So the gaps between the 2U and 2.25 will be smaller than usual (by 0.25mm each), and the gap between the 2U and the outer 1.25U will be wider than usual (by 0.25mm).
+
+<p align="center" width="100%">
+    <img width="75%" src="../assets/split-spacebar-footpint.png">
+</p>
+
 
 ## Soldering
 
