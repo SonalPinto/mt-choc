@@ -42,6 +42,9 @@ The 6.25U spacebar is great. But, there is clearly an opportunity to squeeze a s
     <img width="75%" src="../assets/split-spacebar-footpint.png">
 </p>
 
+The 6.25U MBK spacebar needs a 100mm wire, which is the same width as an MX wire. However, the default long wire that comes along with a Kailh Choc stabilizer kit is 76mm long. Moreover, the MX 100mm wire probably cannot be used with the choc stabilizers because they are usually taller (12.5mm), whereas the Kailh stabilizers are 10mm tall. Moreover, they are also thicker and don't seem to fit into the Kailh choc stabilizer stems (at least the ones I have tried).
+
+The split spacebar requires three 2U choch stabilizers, instead.
 
 ## Soldering
 
