@@ -28,6 +28,8 @@ Mt. Choc's 65% layout is designed around Kailh Choc V1 (PG1350) switches and cho
 
 The 2.25U shift on the left and right will need choc 2U stabilizers (standard 24mm wire). The 6.25U MBK spacebar uses a stabilizer that is 100mm apart (MBK spec). Opportunistically, the layout also offers an alternate spacebar layout with a split (2U-2.25U-2U) that reuses the stabilizer footprint cutouts of the 6.25U (read more in the [hardware doc](docs/hardware.md)).
 
+With the split spacebar layout, you are left with 2U and 2.25U that use stabilizers. You could brave a build without stabilizers for these, and see where that takes you. The MX-spaced [wrk keycaps](https://worklouder.cc/keycaps/) do not appear to be using stabilizers for their 2U.
+
 ## Hardware
 [⌨️ DOC ⌨️](docs/hardware.md)
 
