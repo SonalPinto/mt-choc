@@ -1,4 +1,4 @@
-22497171380921379
+22498855995016156
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93923,8 +93923,8 @@ Choc-6.25u-split-cutout
 
 
 0
-6
-6
+0
+0
 mt-choc-footprints
 D_SOD123
 
@@ -93969,6 +93969,13 @@ RP2040_LCD_1p28_enclosure
 0
 mt-choc-footprints
 half-dome
+
+
+0
+0
+0
+mt-choc-footprints
+mt-blanc
 
 
 0

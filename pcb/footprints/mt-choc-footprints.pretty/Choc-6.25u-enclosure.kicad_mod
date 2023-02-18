@@ -1,7 +1,7 @@
 (footprint "Choc-6.25u-enclosure" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
-  (fp_text reference "REF**" (at 3.5 2 180) (layer "Dwgs.User")
+  (fp_text reference "REF**" (at 3.5 2 180) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.2)))
     (tstamp a09ba30f-99f3-4c2b-8b2e-72b71a1521f5)
   )

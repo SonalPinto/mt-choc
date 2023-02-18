@@ -1,11 +1,11 @@
 (footprint "D_SOD123" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "D_SOD123" (at 0 1.925) (layer "Dwgs.User")
+  (fp_text reference "REF**" (at 0 1.925) (layer "F.Fab")
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 86a2742e-f14d-4889-95e5-8e94c3cdb1c2)
   )
-  (fp_text value "VAL**" (at 0 -1.925) (layer "F.SilkS") hide
+  (fp_text value "D_SOD123" (at 0 -1.925) (layer "F.Fab")
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 42e3c71b-14d4-4903-904a-e1231bbb3d63)
   )
