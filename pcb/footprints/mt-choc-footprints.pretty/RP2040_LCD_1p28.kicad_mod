@@ -383,8 +383,8 @@
   (pad "38" thru_hole circle (at -6.460246 16.853038 180) (size 1 1) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp ea97d4e9-bfd2-482d-8397-5767838a4bb3))
   (pad "39" thru_hole circle (at -7.730246 15.583038 180) (size 1 1) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 85110de7-5e2a-4322-929e-1677a3c71ca3))
   (pad "40" thru_hole circle (at -6.460246 15.583038 180) (size 1 1) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp fdcee5f0-e49f-4588-b9f3-bb314ffc2f6c))
-  (model "/Users/spinto/Downloads/RP2040-LCD-1.28.step"
-    (offset (xyz 24.427754 -21.251038 4.5))
+  (model "/Users/spinto/Documents/KiCad/6.0/projects/mt-choc/pcb/3dmodels/RP2040-LCD-1.28.step"
+    (offset (xyz 24.427754 -21.251038 4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
