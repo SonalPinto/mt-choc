@@ -48,7 +48,7 @@ With the split spacebar layout, you are left with 2U and 2.25U that use stabiliz
 
 ### Compatible Keycaps
 Keycaps designed for 18mm wide 1U. This is not an exhaustive list.
-- [MBK Legend‡ Extended] (https://fkcaps.com/keycaps/mbk/legend-extended), or MBK profile in general
+- [MBK Legend‡ Extended](https://fkcaps.com/keycaps/mbk/legend-extended), or MBK profile in general
 - [MCC keycaps](https://splitkb.com/products/moergo-mcc-profile-1u-keycap)
 - [ChosFox CFX](https://chosfox.com/products/chocfox-legends-keycap-set?variant=42753190461634). Ok, technically, I am not sure if CFX was designed for 18mm wide spacing. My measurements say that they may have been designed for 19mm (or 19.05mm) spacing. However, when placed on the 18mm wide spaced board, I couldn't tell if anything was off (at least the left/right mod columns appear ok~ish).
 
