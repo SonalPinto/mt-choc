@@ -1,9 +1,9 @@
 # Mt. Choc
 <p align="center" width="100%">
-    <img width="20%" src="assets/Half-Dome-Topo.png">
+    <img width="10%" src="assets/pinbadge.png">
 </p>
 
-Mt. Choc is a low-profile 65% ~dark chocolate~ keyboard.
+Mt. Choc is a low-profile 65% ~dark chocolate~ keyboard with a digital pin badge.
 
 ![](https://img.shields.io/badge/-65%25%20Layout-blue)
 ![](https://img.shields.io/badge/-Hotswap-brightgreen)
@@ -28,7 +28,9 @@ Mt. Choc's 65% layout is designed around Kailh Choc V1 (PG1350) switches and cho
 
 The 2.25U shift on the left and right will need choc 2U stabilizers (standard 24mm wire). The 6.25U MBK spacebar uses a stabilizer that is 100mm apart (MBK spec). Opportunistically, the layout also offers an alternate spacebar layout with a split (2U-2.25U-2U) that reuses the stabilizer footprint cutouts of the 6.25U (read more in the [hardware doc](docs/hardware.md)).
 
-With the split spacebar layout, you are left with 2U and 2.25U that use stabilizers. You could brave a build without stabilizers for these, and see where that takes you. The MX-spaced [wrk keycaps](https://worklouder.cc/keycaps/) do not appear to be using stabilizers for their 2U.
+With the split spacebar layout, you are left with 2U and 2.25U that use stabilizers. You could brave a build without stabilizers for these, and see where that takes you. The MX-spaced [wrk keycaps](https://worklouder.cc/keycaps/) do not appear to be using stabilizers for their 2U. I've tried this, and I wasn't a fan. So, I recommend using stabilizers for anything over 2U.
+
+Lastly, the [round display]((https://www.waveshare.com/wiki/RP2040-LCD-1.28)) is like a digital pin badge for your keyboard. It gives it a personal flair.
 
 ## Hardware
 [⌨️ DOC ⌨️](docs/hardware.md)
