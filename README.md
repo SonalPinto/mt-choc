@@ -1,6 +1,6 @@
 # Mt. Choc
 <p align="center" width="100%">
-    <img width="10%" src="assets/pinbadge.png">
+    <img width="30%" src="assets/pinbadge.png">
 </p>
 
 Mt. Choc is a low-profile 65% ~dark chocolate~ keyboard with a digital pin badge.
@@ -30,7 +30,12 @@ The 2.25U shift on the left and right will need choc 2U stabilizers (standard 24
 
 With the split spacebar layout, you are left with 2U and 2.25U that use stabilizers. You could brave a build without stabilizers for these, and see where that takes you. The MX-spaced [wrk keycaps](https://worklouder.cc/keycaps/) do not appear to be using stabilizers for their 2U. I've tried this, and I wasn't a fan. So, I recommend using stabilizers for anything over 2U.
 
-Lastly, the [round display]((https://www.waveshare.com/wiki/RP2040-LCD-1.28)) is like a digital pin badge for your keyboard. It gives it a personal flair.
+Lastly, the [round display](https://www.waveshare.com/wiki/RP2040-LCD-1.28) is like a digital pin badge for your keyboard. Give it a personal flair!
+
+<p align="center" width="100%">
+    <img width="50%" src="https://static.wikia.nocookie.net/twewy/images/9/99/Final_Remix_Pins.png/revision/latest?cb=20190527102037">
+</p>
+
 
 ## Hardware
 [⌨️ DOC ⌨️](docs/hardware.md)
