@@ -34,8 +34,8 @@ The `Display` module is not entirely generic, but it isn't too specific either. 
 
 https://user-images.githubusercontent.com/8972905/226076137-39ad3e6d-f04e-4504-a3f6-302d70fa951c.mp4
 
-</br>
-Initially, I had wanted to entirely procedurally generate the glitch effect on the fly by sampling some coherent noise and using displacement maps across the channels. However, after playing with CircuitPython and the display, I ran in to the hard wall of what was realistically computable on a RP2040 running CircuitPython. As of right now, CircuitPython uses only one core of the RP2040. It would have been nice to have KMK on one core and the display animation and management on another core. Fancier things are clearly possible on the RP2040, no doubt - as evidenced by the [PicoSystem](https://shop.pimoroni.com/en-us/products/picosystem). But that trades off the utter convinience of KMK and CircuitPython, which I am not willing to let go of yet.
+<br></br>
+Initially, I had wanted to entirely procedurally generate the glitch effect on the fly by sampling some coherent noise and using displacement maps across the channels. However, after playing with CircuitPython and the display, I ran in to the hard wall of what was realistically computable on a RP2040 running CircuitPython. As of right now, CircuitPython uses only one core of the RP2040. It would have been nice to have KMK on one core and the display animation and management on another core. Fancier things are clearly possible on the RP2040, no doubt - as evidenced by the [PicoSystem](https://shop.pimoroni.com/en-us/products/picosystem) . But that trades off the utter convinience of KMK and CircuitPython, which I am not willing to let go of yet.
 
 ## QMK
 You could possibly run QMK on this. Afterall, it's just an RP2040. Not too sure about the display though, since I haven't dabbled with QMK.
