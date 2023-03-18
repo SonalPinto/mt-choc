@@ -22,7 +22,7 @@ At the least the build requires the main pcb and the switch plate. This can eith
 For a minimalist look, throw in the bottom plate and foam mid-layer. The bottom plate will enclose the components of the main PCB and the foam layer will fill in the 1mm gap between the switch plate and the main PCB. The bottom plate needn't be a PCB, and can be laser cut with 2mm acrylic as well, same as the foam.
 
 <p align="center" width="100%">
-    <img src="assets/photos/img1.jpg">
+    <img src="../assets/photos/img1.jpg">
 </p>
 
 | Part | Quantity | Description |
@@ -37,7 +37,7 @@ For a minimalist look, throw in the bottom plate and foam mid-layer. The bottom 
 - There are no holes for the screws in the mid-plate. With foam, you can just poke through it with a pin, and then set the screw.
 
 <p align="center" width="100%">
-    <img src="assets/photos/img4.jpg">
+    <img src="../assets/photos/img4.jpg">
 </p>
 
 #### Assembly
