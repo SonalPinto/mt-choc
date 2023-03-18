@@ -112,13 +112,13 @@ class Display(Extension):
         return
 
     def after_matrix_scan(self, sandbox):
-        self.animate()
+        return
 
     def before_hid_send(self, sandbox):
         return
 
     def after_hid_send(self, sandbox):
-        return
+        self.animate()
 
     def on_powersave_enable(self, sandbox):
         return
