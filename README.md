@@ -15,7 +15,15 @@ Mt. Choc is a low-profile 65% ~dark chocolate~ keyboard with a digital pin badge
 🦗
 
 ## Gallery
-🦗
+<p align="center" width="100%">
+    <img src="assets/photos/img3.jpg">
+</p>
+<p align="center" width="100%">
+    <img src="assets/photos/img0.jpg">
+</p>
+<p align="center" width="100%">
+    <img src="assets/photos/img2.jpg">
+</p>
 
 ## Layout
 A while back I had bought a box of [Sunset tactiles](https://lowprokb.ca/collections/keyboards/products/sunset-tactile-choc-switches) on a whim. I didn't really have a board in mind back then, but I knew I wanted to design a low profile board and have some kinda display on it. I had some idea brewing around since reading this ["Cyberpunk OLED glitch"](https://kbd.news/Cyberpunk-OLED-glitch-1098.html) article on KBD.news. A few weeks later, I stumbled upon [Simon's interview](https://kbd.news/Keycaps-design-and-free-kittens-1801.html) on KBD.news and saw the interest check for [MBK Legend‡ Extended](https://fkcaps.com/keycaps/mbk/legend-extended)). Everything just clicked together, and I started drafting a board.
@@ -55,12 +63,14 @@ Lastly, the [round display](https://www.waveshare.com/wiki/RP2040-LCD-1.28) is l
 
 ### Compatible Keycaps
 Keycaps designed for 18mm wide 1U. This is not an exhaustive list.
-- [MBK Legend‡ Extended](https://fkcaps.com/keycaps/mbk/legend-extended), or MBK profile in general
+- [MBK Legend‡ Extended](https://fkcaps.com/keycaps/mbk/legend-extended)
+- [MBK Convex POM](https://www.moergo.com/collections/mbk-convex-keycaps/products/mbk-pom-pk2?variant=44253211722001). The 2U and 2.2U would be well suited for the split spacebar. Note, this is not the same as FK Caps MBK.
 - [MCC keycaps](https://splitkb.com/products/moergo-mcc-profile-1u-keycap)
 - [ChosFox CFX](https://chosfox.com/products/chocfox-legends-keycap-set?variant=42753190461634). Ok, technically, I am not sure if CFX was designed for 18mm wide spacing. My measurements say that they may have been designed for 19mm (or 19.05mm) spacing. However, when placed on the 18mm wide spaced board, I couldn't tell if anything was off (at least the left/right mod columns appear ok~ish).
 
 ## Credits
 - Simon ([FK Caps](https://fkcaps.com/)) and folks on FK Caps [Discord](https://discord.gg/b5C9H99RYZ)
 - skarrman's [Horizon keyboard](https://github.com/skarrmann/horizon/)
-- nicoles' [mbk-footprints](https://github.com/nicoles/mbk_footprints)
+- FK Caps [mbk-footprints](https://github.com/FKcaps/mbk-footprints)
+  - Based off of nicoles' [mbk-footprints](https://github.com/nicoles/mbk_footprints)
 - Wife for photography and coming up with the name
