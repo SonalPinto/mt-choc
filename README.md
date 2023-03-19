@@ -12,7 +12,7 @@ Mt. Choc is a low-profile 65% ~dark chocolate~ keyboard with a digital pin badge
 ![](https://img.shields.io/badge/-MBK-gray)
 
 ## News
-🦗
+- https://kbd.news/Mt.-Choc-1938.html 🎉
 
 ## Gallery
 <p align="center" width="100%">
