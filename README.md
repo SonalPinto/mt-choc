@@ -69,7 +69,7 @@ Lastly, the [round display](https://www.waveshare.com/wiki/RP2040-LCD-1.28) is l
 ### Compatible Keycaps
 Keycaps designed for 18mm wide 1U. This is not an exhaustive list.
 - [MBK Legend‡ Extended](https://fkcaps.com/keycaps/mbk/legend-extended)
-- [MBK Convex POM](https://www.moergo.com/collections/mbk-convex-keycaps/products/mbk-pom-pk2?variant=44253211722001). The 2U and 2.2U would be well suited for the split spacebar. Note, this is not the same as FK Caps MBK.
+- [MBK Convex POM](https://www.moergo.com/collections/mbk-convex-keycaps/products/mbk-pom-pk2?variant=44253211722001). The 2U and 2.25U would be well suited for the split spacebar. Note, this is not the same as FK Caps MBK.
 - [MCC keycaps](https://splitkb.com/products/moergo-mcc-profile-1u-keycap)
 - [ChosFox CFX](https://chosfox.com/products/chocfox-legends-keycap-set?variant=42753190461634). Ok, technically, I am not sure if CFX was designed for 18mm wide spacing. My measurements say that they may have been designed for 19mm (or 19.05mm) spacing. However, when placed on the 18mm wide spaced board, I couldn't tell if anything was off (at least the left/right mod columns appear ok~ish).
 
