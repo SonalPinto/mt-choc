@@ -161,16 +161,16 @@ class Display(Extension):
         #
 
         # Number of animation frames
-        self.kMaxFrames = 3
+        self.kMaxFrames = 4
         
         # Extent of glitching effect, i.e. instances of tiles swapped
-        self.kGlitch = 4
+        self.kGlitch = 2
 
         # Animation frame time
-        self.kFrameTime = 0.125
+        self.kFrameTime = 0.15
 
         # How often the animation is triggered, in seconds
-        self.kAnimationCycle = 5
+        self.kAnimationCycle = 3
 
         # Animation trackers
         self.mIdle = time.monotonic()

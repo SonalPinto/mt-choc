@@ -57,7 +57,7 @@ class MtChoc(KMKKeyboard):
         # =============================================================
         # Extensions
         layer_ext = Layers()
-        display_ext = Display(imgfile="/samurai_pinbadge.bmp", grid_rows=10, grid_columns=4)
+        display_ext = Display(imgfile="/samurai_pinbadge.bmp", grid_rows=5, grid_columns=4)
 
         self.modules = [layer_ext, display_ext]
 
