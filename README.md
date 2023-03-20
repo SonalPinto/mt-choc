@@ -12,7 +12,13 @@ Mt. Choc is a low-profile 65% ~dark chocolate~ keyboard with a digital pin badge
 ![](https://img.shields.io/badge/-MBK-gray)
 
 ## News
-- https://kbd.news/Mt.-Choc-1938.html 🎉
+- [Mt. Choc on KBD.news](https://kbd.news/Mt.-Choc-1938.html) 🎉
+
+<p align="center" width="100%">
+    <a href="http://www.youtube.com/watch?feature=player_embedded&v=3p3KzxKYGxo" target="_blank">
+     <img src="https://img.youtube.com/vi/3p3KzxKYGxo/hqdefault.jpg" alt="Mt. Choc Glitch Effect"/>
+    </a>
+</p>
 
 ## Gallery
 <p align="center" width="100%">
@@ -27,8 +33,6 @@ Mt. Choc is a low-profile 65% ~dark chocolate~ keyboard with a digital pin badge
 <p align="center" width="100%">
     <img src="assets/photos/img1.jpg">
 </p>
-
-https://user-images.githubusercontent.com/8972905/226076137-39ad3e6d-f04e-4504-a3f6-302d70fa951c.mp4
 
 ## Layout
 A while back I had bought a box of [Sunset tactiles](https://lowprokb.ca/collections/keyboards/products/sunset-tactile-choc-switches) on a whim. I didn't really have a board in mind back then, but I knew I wanted to design a low profile board and have some kinda display on it. I had some idea brewing around since reading this ["Cyberpunk OLED glitch"](https://kbd.news/Cyberpunk-OLED-glitch-1098.html) article on KBD.news. A few weeks later, I stumbled upon [Simon's interview](https://kbd.news/Keycaps-design-and-free-kittens-1801.html) on KBD.news and saw the interest check for [MBK Legend‡ Extended](https://fkcaps.com/keycaps/mbk/legend-extended)). Everything just clicked together, and I started drafting a board.
